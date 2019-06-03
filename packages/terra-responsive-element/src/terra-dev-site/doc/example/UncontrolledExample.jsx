@@ -38,7 +38,7 @@ const ResponsiveTableExample = () => {
     </table>
   );
 
-  return <ResponsiveElement defaultElement={mobileView} small={desktopView} />;
+  return <ResponsiveElement tiny={mobileView} small={desktopView} />;
 };
 
 export default ResponsiveTableExample;

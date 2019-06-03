@@ -8,8 +8,8 @@ describe('Responsive Element', () => {
     Terra.should.matchScreenshot({ viewports });
   });
 
-  describe('should render the the default element at tiny and small and medium above', () => {
-    before(() => browser.url('/#/raw/tests/terra-responsive-element/responsive-element/default-and-medium'));
+  describe('should render tiny at tiny and small breakpoints and medium at medium and above breakpoints', () => {
+    before(() => browser.url('/#/raw/tests/terra-responsive-element/responsive-element/tiny-and-medium'));
 
     Terra.should.beAccessible({ viewports });
     Terra.should.matchScreenshot({ viewports });

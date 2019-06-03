@@ -3,8 +3,10 @@ import DocTemplate from 'terra-doc-template';
 import ReadMe from '../../../../docs/README.md';
 /* eslint-disable import/no-webpack-loader-syntax, import/first, import/extensions, import/no-unresolved, import/no-duplicates */
 import ResponsiveElementSrc from '!raw-loader!../../../../src/ResponsiveElement';
-import ResponsiveTableExample from '../example/ResponsiveTable';
-import ResponsiveTableExampleSrc from '!raw-loader!../../../../src/terra-dev-site/doc/example/ResponsiveTable';
+import ControlledExample from '../example/ControlledExample';
+import ControlledExampleSrc from '!raw-loader!../../../../src/terra-dev-site/doc/example/ControlledExample';
+import UncontrolledExample from '../example/UncontrolledExample';
+import UncontrolledExampleSrc from '!raw-loader!../../../../src/terra-dev-site/doc/example/UncontrolledExample';
 /* eslint-enable import/no-webpack-loader-syntax, import/first, import/extensions, import/no-unresolved, import/no-duplicates */
 
 const DocPage = () => (
@@ -20,10 +22,16 @@ const DocPage = () => (
     ]}
     examples={[
       {
-        title: 'Responsive Table',
+        title: 'Controlled Responsive Table Example',
         description: 'A table that will render as a list on small screen sizes.',
-        example: <ResponsiveTableExample />,
-        source: ResponsiveTableExampleSrc,
+        example: <ControlledExample />,
+        source: ControlledExampleSrc,
+      },
+      {
+        title: 'Uncontrolled Responsive Table Example',
+        description: 'A table that will render as a list on small screen sizes.',
+        example: <UncontrolledExample />,
+        source: UncontrolledExampleSrc,
       },
     ]}
   />
