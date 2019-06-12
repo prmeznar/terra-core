@@ -32,7 +32,7 @@
     "commander": "^2.9.0",
     "glob": "^7.1.2",
     "prop-types": "^15.5.8",
-    "react-docgen": "^2.15.0",
+    "react-docgen": "^4.1.1",
     "terra-markdown": "^2.27.0"
   },
   "scripts": {
