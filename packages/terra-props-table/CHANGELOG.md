@@ -10,6 +10,7 @@ Unreleased
 * Removed node_modules from .npmignore
 
 ### Changed
+* Updated the react-docgen dependency from v2.15.0 to v4.1.1
 * Made required updates to consume terra-toolkit v5 and terra-dev-site v5
 
 2.30.0 - (May 1, 2019)
