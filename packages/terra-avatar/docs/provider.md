@@ -1,6 +1,6 @@
 # Provider
 
-The `Provider` variant represents a Physichian - it displays an image in a circular frame. If an image is not provided, a fallback provider icon displays.
+The `Provider` variant represents a Physician - it displays an image in a circular frame. If an image is not provided, a fallback provider icon displays.
 
 
 ## Getting Started
