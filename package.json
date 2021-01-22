@@ -1,7 +1,7 @@
 {
   "name": "terra-core",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "terra-core",
   "engines": {
     "node": ">=8.9.2 <12"
